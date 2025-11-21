@@ -1042,7 +1042,7 @@
                   select the section and use the icons above to make your
                   changes.
                 </p>
-                <a href="cloud-hosting.html" class="theme-btn mt-4"
+                <a href="https://www.aero-stack.com/shop" class="theme-btn mt-4"
                   >Best hosting <i class="fa-regular fa-chevrons-right"></i
                 ></a>
               </div>
@@ -1063,7 +1063,7 @@
                   using the right icon of each block. Then, duplicate one of the
                   columns to create a new one as a copy.
                 </p>
-                <a href="reseller-hosting.html" class="theme-btn mt-4"
+                <a href="https://www.aero-stack.com/shop" class="theme-btn mt-4"
                   >Best hosting <i class="fa-regular fa-chevrons-right"></i
                 ></a>
               </div>
@@ -1086,7 +1086,7 @@
                   conveys your message. Click on the image to adjust its rounded
                   corner style.
                 </p>
-                <a href="cloud-hosting.html" class="theme-btn mt-4"
+                <a href="https://www.aero-stack.com/shop" class="theme-btn mt-4"
                   >Best hosting <i class="fa-regular fa-chevrons-right"></i
                 ></a>
               </div>
