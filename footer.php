@@ -85,13 +85,13 @@
                 </div>
                 <ul class="list-area">
                   <li>
-                    <a href="about.html">
+                    <a href="about.php">
                       <i class="fa-regular fa-chevrons-right"></i>
                       AeroStack About
                     </a>
                   </li>
                   <li>
-                    <a href="contact.html">
+                    <a href="contact.php">
                       <i class="fa-regular fa-chevrons-right"></i>
                       Contact Us
                     </a>
@@ -181,7 +181,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="contact.html">
+                    <a href="contact.php">
                       <i class="fa-regular fa-chevrons-right"></i>
                       Submit Ticket
                     </a>
@@ -193,7 +193,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="contact.html">
+                    <a href="contact.php">
                       <i class="fa-regular fa-chevrons-right"></i>
                       Support Ticket
                     </a>
@@ -250,17 +250,17 @@
                 <img src="assets/img/visa-logo.png" alt="img" />
               </li>
               <li>
-                <a href="contact.html">
+                <a href="contact.php">
                   <img src="assets/img/mastercard-logo.png" alt="img" />
                 </a>
               </li>
               <li>
-                <a href="contact.html">
+                <a href="contact.php">
                   <img src="assets/img/payoneer-logo.png" alt="img" />
                 </a>
               </li>
               <li>
-                <a href="contact.html">
+                <a href="contact.php">
                   <img src="assets/img/affirm-logo.png" alt="img" />
                 </a>
               </li>

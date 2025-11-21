@@ -33,32 +33,9 @@
   </head>
   <body>
     <!-- Preloader Start -->
-    <!-- <div id="preloader" class="preloader">
+        <div id="preloader" class="preloader">
             <div class="animation-preloader">
                 <div class="spinner">                
-                </div>
-                <div class="txt-loading">
-                    <span data-text-preloader="H" class="letters-loading">
-                        H
-                    </span>
-                    <span data-text-preloader="O" class="letters-loading">
-                        O
-                    </span>
-                    <span data-text-preloader="S" class="letters-loading">
-                        S
-                    </span>
-                    <span data-text-preloader="T" class="letters-loading">
-                        T
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
-                    </span>
-                    <span data-text-preloader="C" class="letters-loading">
-                        C
-                    </span>
-                    <span data-text-preloader="H" class="letters-loading">
-                        H
-                    </span>
                 </div>
                 <p class="text-center">Loading</p>
             </div>
@@ -78,7 +55,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
     <!--<< Mouse Cursor Start >>-->
     <div class="mouse-cursor cursor-outer"></div>
@@ -152,7 +129,7 @@
                 </li>
               </ul>
               <div class="header-button mt-4">
-                <a href="contact.html" class="theme-btn text-center">
+                <a href="contact.php" class="theme-btn text-center">
                   Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
                 </a>
               </div>
@@ -191,7 +168,7 @@
             <ul class="list">
               <li>
                 <i class="fa-light fa-comments"></i
-                ><a href="contact.html">Support Ticket</a>
+                ><a href="contact.php">Support Ticket</a>
               </li>
               <li>
                 <i class="fa-light fa-user"></i>
@@ -317,7 +294,7 @@
                           </ul>
                         </li>
                         <li class="has-dropdown menu-thumb">
-                          <a href="about.html">
+                          <a href="about.php">
                             About Us
                             <i class="fas fa-angle-down"></i>
                           </a>
@@ -335,7 +312,7 @@
                                       </div>
                                       <div class="content">
                                         <h6>
-                                          <a href="about.html">About Us</a>
+                                          <a href="about.php">About Us</a>
                                         </h6>
                                         <p>About Aero-Stack</p>
                                       </div>
@@ -437,7 +414,7 @@
                                       </div>
                                       <div class="content">
                                         <h6>
-                                          <a href="service.html">Services</a>
+                                          <a href="service.php">Services</a>
                                         </h6>
                                         <p>Best Services Provider</p>
                                       </div>
@@ -502,7 +479,7 @@
                             <i class="fas fa-angle-down"></i>
                           </a>
                           <ul class="submenu">
-                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="about.php">About Us</a></li>
                             <li>
                               <a href="black-friday.html">Black Friday</a>
                             </li>
@@ -512,7 +489,7 @@
                               <a href="pricing-2.html">Pricing Package</a>
                             </li>
                             <li><a href="data-center.html">Data Center</a></li>
-                            <li><a href="service.html">Services</a></li>
+                            <li><a href="service.php">Services</a></li>
                             <li><a href="team.html">Team</a></li>
                             <li>
                               <a href="team-details.html">Team Details</a>
@@ -551,7 +528,7 @@
                           </ul>
                         </li>
                         <li>
-                          <a href="service.html">Services</a>
+                          <a href="service.php">Services</a>
                         </li>
                         <!-- <li>
                                                     <a href="company.html">
@@ -565,7 +542,7 @@
                                                     </ul>
                                                 </li> -->
                         <li>
-                          <a href="contact.html">
+                          <a href="contact.php">
                             Contact Us
                             <i class="fas fa-angle-down"></i>
                           </a>
@@ -573,7 +550,7 @@
                             <li><a href="faq.html">Faq</a></li>
                             <li><a href="404.html">Error 404</a></li>
                             <li><a href="support.html">Support</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
                           </ul>
                         </li>
                       </ul>
@@ -587,7 +564,7 @@
                                     </div>
                                 </div> -->
                 <div class="header-button">
-                  <a href="contact.html" class="theme-btn">
+                  <a href="contact.php" class="theme-btn">
                     get Started
                     <i class="fa-solid fa-arrow-right-long"></i>
                   </a>
@@ -836,10 +813,10 @@
                                 </ul>
                             </div>
                             <div class="hero-author">
-                                <a href="contact.html" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".7s">
+                                <a href="contact.php" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".7s">
                                     Get Started <i class="fas fa-long-arrow-alt-right"></i>
                                 </a>
-                                <a href="service.html" class="theme-btn border-white wow fadeInUp" data-wow-delay=".7s">
+                                <a href="service.php" class="theme-btn border-white wow fadeInUp" data-wow-delay=".7s">
                                     See Our Services <i class="fas fa-long-arrow-alt-right"></i>
                                 </a>
                             </div>
@@ -1193,7 +1170,7 @@
                     </li>
                   </ul>
                   <div class="pricing-button">
-                    <a href="contact.html" class="theme-btn">
+                    <a href="contact.php" class="theme-btn">
                       get Started Now
                       <i class="fas fa-long-arrow-alt-right"></i>
                     </a>
@@ -1244,7 +1221,7 @@
                     </li>
                   </ul>
                   <div class="pricing-button">
-                    <a href="contact.html" class="theme-btn">
+                    <a href="contact.php" class="theme-btn">
                       get Started Now
                       <i class="fas fa-long-arrow-alt-right"></i>
                     </a>
@@ -1295,7 +1272,7 @@
                     </li>
                   </ul>
                   <div class="pricing-button">
-                    <a href="contact.html" class="theme-btn">
+                    <a href="contact.php" class="theme-btn">
                       get Started Now
                       <i class="fas fa-long-arrow-alt-right"></i>
                     </a>
@@ -1347,7 +1324,7 @@
                     </li>
                   </ul>
                   <div class="pricing-button">
-                    <a href="contact.html" class="theme-btn">
+                    <a href="contact.php" class="theme-btn">
                       get Started Now
                       <i class="fas fa-long-arrow-alt-right"></i>
                     </a>
@@ -1395,7 +1372,7 @@
                     </li>
                   </ul>
                   <div class="pricing-button">
-                    <a href="contact.html" class="theme-btn">
+                    <a href="contact.php" class="theme-btn">
                       get Started Now
                       <i class="fas fa-long-arrow-alt-right"></i>
                     </a>
@@ -1443,7 +1420,7 @@
                     </li>
                   </ul>
                   <div class="pricing-button">
-                    <a href="contact.html" class="theme-btn">
+                    <a href="contact.php" class="theme-btn">
                       get Started Now
                       <i class="fas fa-long-arrow-alt-right"></i>
                     </a>
@@ -1575,7 +1552,7 @@
               </div>
               <div class="cta-contact-button mt-4 mt-md-0">
                 <a
-                  href="contact.html"
+                  href="contact.php"
                   class="theme-btn bg-color-2 wow fadeInUp"
                   data-wow-delay=".5s"
                   >WhatsApp Now <i class="fas fa-long-arrow-alt-right"></i
@@ -1730,7 +1707,7 @@
                   </ul>
                 </div>
                 <a
-                  href="contact.html"
+                  href="contact.php"
                   class="theme-btn wow fadeInUp"
                   data-wow-delay=".7s"
                 >
