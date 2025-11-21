@@ -383,7 +383,7 @@
                                                                                 <img src="assets/img/menu-icon/error.png" alt="img">
                                                                             </div>
                                                                             <div class="content">
-                                                                                <h6><a href="404.html">Error Pages</a></h6>
+                                                                                <h6><a href="404.php">Error Pages</a></h6>
                                                                                 <p>
                                                                                     Back to Home
                                                                                 </p>
@@ -410,7 +410,7 @@
                                                         <li><a href="service.php">Services</a></li>
                                                         <li><a href="team.html">Team</a></li>
                                                         <li><a href="team-details.html">Team Details</a></li>
-                                                        <li><a href="404.html">Error Pages</a></li>
+                                                        <li><a href="404.php">Error Pages</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="has-dropdown active d-xl-none">
@@ -438,7 +438,7 @@
                                                     </a>
                                                     <ul class="submenu">
                                                         <li><a href="faq.html">Faq</a></li>
-                                                        <li><a href="404.html">Error 404</a></li>
+                                                        <li><a href="404.php">Error 404</a></li>
                                                         <li><a href="support.html">Support</a></li>
                                                         <li><a href="contact.php">Contact Us</a></li>
                                                     </ul>
