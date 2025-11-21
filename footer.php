@@ -114,8 +114,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-xl-2 col-lg-4 col-md-6 ps-lg-4 wow fadeInUp" data-wow-delay=".8s">
-          <!-- <div class="single-footer-widget">
+        <!-- <div class="col-xl-2 col-lg-4 col-md-6 ps-lg-4 wow fadeInUp" data-wow-delay=".8s">
+          <div class="single-footer-widget">
             <div class="widget-head">
               <h3>Support</h3>
             </div>
@@ -151,8 +151,8 @@
                 </a>
               </li>
             </ul>
-          </div> -->
-        </div>
+          </div>
+        </div> -->
         <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-4 wow fadeInUp" data-wow-delay=".9s">
           <div class="single-footer-widget">
             <div class="widget-head">
