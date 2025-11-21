@@ -54,9 +54,21 @@
             </div>
             <ul class="list-area">
               <li>
+                <a href="index.php">
+                  <i class="fa-regular fa-chevrons-right"></i>
+                  Home
+                </a>
+              </li>
+              <li>
                 <a href="about.php">
                   <i class="fa-regular fa-chevrons-right"></i>
-                  AeroStack About
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="service.php">
+                  <i class="fa-regular fa-chevrons-right"></i>
+                  Service
                 </a>
               </li>
               <li>
@@ -65,61 +77,38 @@
                   Contact Us
                 </a>
               </li>
-              <li>
-                <a href="refund-policy.html">
-                  <i class="fa-regular fa-chevrons-right"></i>
-                  Refund Policy
-                </a>
-              </li>
-              <li>
-                <a href="terms-and-conditions.html">
-                  <i class="fa-regular fa-chevrons-right"></i>
-                  Terms & Conditions
-                </a>
-              </li>
-              <li>
-                <a href="privacy-policy.html">
-                  <i class="fa-regular fa-chevrons-right"></i>
-                  Privacy Policy
-                </a>
-              </li>
+              
             </ul>
           </div>
         </div>
         <div class="col-xl-2 col-lg-4 col-md-3 ps-lg-4 wow fadeInUp" data-wow-delay=".6s">
           <div class="single-footer-widget style-margin">
             <div class="widget-head">
-              <h3>Hosting</h3>
+              <h3>Read More</h3>
             </div>
             <ul class="list-area">
               <li>
-                <a href="shared-hosting.html">
+                <a href="privacy-policy.php">
                   <i class="fa-regular fa-chevrons-right"></i>
-                  Shared Hosting
+                  Privacy Policy
                 </a>
               </li>
-              <li>
-                <a href="reseller-hosting.html">
+                            <li>
+                <a href="refund-policy.php">
                   <i class="fa-regular fa-chevrons-right"></i>
-                  Reseller Hosting
+                  Refund Policy
                 </a>
               </li>
-              <li>
-                <a href="vps-hosting.html">
+                            <li>
+                <a href="terms-and-conditions.php">
                   <i class="fa-regular fa-chevrons-right"></i>
-                  VPS Hosting
+                  Terms & Conditions
                 </a>
               </li>
-              <li>
-                <a href="cloud-hosting.html">
+                            <li>
+                <a href="#">
                   <i class="fa-regular fa-chevrons-right"></i>
-                  Cloud Hosting
-                </a>
-              </li>
-              <li>
-                <a href="dedicated-hosting.html">
-                  <i class="fa-regular fa-chevrons-right"></i>
-                  Dedicated Hosting
+                  Login
                 </a>
               </li>
             </ul>
