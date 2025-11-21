@@ -672,9 +672,9 @@
                                     <img src="assets/img/about/shape.png" alt="img">
                                 </div>
                                 <div class="about-image-1 wow fadeInLeft" data-wow-delay=".3s">
-                                    <img src="assets/img/about/01.jpg" alt="img">
+                                    <img src="assets/img/pictures/about-image-1.jpg" alt="img">
                                     <div class="about-image-2 wow fadeInUp" data-wow-delay=".5s">
-                                        <img src="assets/img/about/02.png" alt="img">
+                                        <img src="assets/img/pictures/about-image-2.jpg" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -770,7 +770,7 @@
                                     <img src="assets/img/hosting/icon-3.png" alt="img">
                                 </div>
                                 <div class="thumb">
-                                    <img src="assets/img/gym-man.png" alt="img">
+                                    <img src="assets/img/pictures/Cloud-hosting-image.png" alt="img">
                                 </div>
                             </div>
                         </div>

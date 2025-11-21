@@ -1151,7 +1151,7 @@
           <div class="row g-4">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
               <div class="faq-image">
-                <img src="assets/img/faq.png" alt="img" />
+                <img src="assets/img/pictures/services-1.jpg" alt="img" />
               </div>
             </div>
             <div class="col-lg-6">
