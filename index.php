@@ -70,7 +70,7 @@
               class="offcanvas__top mb-5 d-flex justify-content-between align-items-center"
             >
               <div class="offcanvas__logo">
-                <a href="index.php">
+                <a href="./">
                   <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
                 </a>
               </div>
@@ -186,13 +186,13 @@
             <div class="header-main">
               <div class="header-left">
                 <div class="logo">
-                  <a href="index.php" class="header-logo">
+                  <a href="./" class="header-logo">
                     <img
                       src="assets//img/logo/Aerostack Systems Private Limited 2.png"
                       alt="logo-img"
                     />
                   </a>
-                  <a href="index.php" class="header-logo-2">
+                  <a href="./" class="header-logo-2">
                     <img
                       src="assets//img/logo/aerostack-systems-logo.png"
                       alt="logo-img"
@@ -208,7 +208,7 @@
                     <nav id="mobile-menu">
                       <ul>
                         <li class="has-dropdown active menu-thumb">
-                          <a href="index.php">
+                          <a href="./">
                             Home
                             <i class="fas fa-angle-down"></i>
                           </a>
@@ -224,7 +224,7 @@
                                   </div>
                                   <div class="content">
                                     <h6>
-                                      <a href="index.php">Web Hosting</a>
+                                      <a href="./">Web Hosting</a>
                                     </h6>
                                     <p>Powerful bare metal server</p>
                                   </div>
@@ -285,7 +285,7 @@
                             <i class="fas fa-angle-down"></i>
                           </a>
                           <ul class="submenu">
-                            <li><a href="index.php">Web Hosting</a></li>
+                            <li><a href="./">Web Hosting</a></li>
                             <li><a href="index-2.html">Hosting Services</a></li>
                             <li>
                               <a href="index-3.html">Hosting Solutions</a>

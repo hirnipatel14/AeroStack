@@ -5,7 +5,7 @@
         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
           <div class="single-footer-widget">
             <div class="widget-head">
-              <a href="index.php">
+              <a href="./">
                 <img src="assets/img/logo/Aerostack-Systems-Private-Limited-white.png" alt="logo-img" />
               </a>
             </div>
@@ -54,7 +54,7 @@
             </div>
             <ul class="list-area">
               <li>
-                <a href="index.php">
+                <a href="./">
                   <i class="fa-regular fa-chevrons-right"></i>
                   Home
                 </a>
@@ -186,7 +186,7 @@
       <div class="footer-wrapper d-flex align-items-center justify-content-between">
         <p class="wow fadeInLeft" data-wow-delay=".3s">
           © All Copyright 2024 by
-          <a href="index.php">AeroStack Systems Private Limited</a>
+          <a href="./">AeroStack Systems Private Limited</a>
         </p>
         <ul class="brand-logo wow fadeInRight" data-wow-delay=".5s">
           <li>
