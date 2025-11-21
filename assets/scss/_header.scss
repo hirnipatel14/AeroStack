@@ -735,7 +735,6 @@
             img {
                 @include imgw;
                 max-width: 336px;
-				visibility: hidden;
             }
         }
 	}
