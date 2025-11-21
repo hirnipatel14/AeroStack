@@ -186,15 +186,15 @@
             <div class="header-main">
               <div class="header-left">
                 <div class="logo">
-                  <a href="index.php" class="header-logo">
+                  <a href="./" class="header-logo">
                     <img
-                      src="assets/img/logo/aerostack-systems-logo.png"
+                      src="assets//img/logo/Aerostack Systems Private Limited 2.png"
                       alt="logo-img"
                     />
                   </a>
-                  <a href="index.php" class="header-logo-2">
+                  <a href="./" class="header-logo-2">
                     <img
-                      src="assets/img/logo/aerostack-systems-logo.png"
+                      src="assets//img/logo/aerostack-systems-logo.png"
                       alt="logo-img"
                     />
                   </a>
@@ -208,76 +208,9 @@
                     <nav id="mobile-menu">
                       <ul>
                         <li class="has-dropdown active menu-thumb">
-                          <a href="index.php">
+                          <a href="./">
                             Home
-                            <i class="fas fa-angle-down"></i>
                           </a>
-                          <ul class="submenu has-homemenu has-menu-home">
-                            <li class="border-none">
-                              <div class="homemenu-items">
-                                <div class="homemenu-list">
-                                  <div class="icon">
-                                    <img
-                                      src="assets/img/menu-icon/web-host.png"
-                                      alt="img"
-                                    />
-                                  </div>
-                                  <div class="content">
-                                    <h6>
-                                      <a href="index.php">Web Hosting</a>
-                                    </h6>
-                                    <p>Powerful bare metal server</p>
-                                  </div>
-                                </div>
-                                <div class="homemenu-list">
-                                  <div class="icon">
-                                    <img
-                                      src="assets/img/menu-icon/host-service.png"
-                                      alt="img"
-                                    />
-                                  </div>
-                                  <div class="content">
-                                    <h6>
-                                      <a href="index-2.html"
-                                        >Hosting Services</a
-                                      >
-                                    </h6>
-                                    <p>Flexible virtual machine</p>
-                                  </div>
-                                </div>
-                                <div class="homemenu-list">
-                                  <div class="icon">
-                                    <img
-                                      src="assets/img/menu-icon/host-solut.png"
-                                      alt="img"
-                                    />
-                                  </div>
-                                  <div class="content">
-                                    <h6>
-                                      <a href="index-3.html"
-                                        >Hosting Solutions</a
-                                      >
-                                    </h6>
-                                    <p>Powerful Hosting solutions</p>
-                                  </div>
-                                </div>
-                                <div class="homemenu-list mb-0">
-                                  <div class="icon">
-                                    <img
-                                      src="assets/img/menu-icon/host-agen.png"
-                                      alt="img"
-                                    />
-                                  </div>
-                                  <div class="content">
-                                    <h6>
-                                      <a href="index-4.html">Hosting Agency</a>
-                                    </h6>
-                                    <p>Big hosting agency</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
                         </li>
                         <li class="has-dropdown active d-xl-none">
                           <a href="team.html" class="border-none">
@@ -285,7 +218,7 @@
                             <i class="fas fa-angle-down"></i>
                           </a>
                           <ul class="submenu">
-                            <li><a href="index.php">Web Hosting</a></li>
+                            <li><a href="./">Web Hosting</a></li>
                             <li><a href="index-2.html">Hosting Services</a></li>
                             <li>
                               <a href="index-3.html">Hosting Solutions</a>
@@ -296,9 +229,9 @@
                         <li class="has-dropdown menu-thumb">
                           <a href="about.php">
                             About Us
-                            <i class="fas fa-angle-down"></i>
+                            <!-- <i class="fas fa-angle-down"></i> -->
                           </a>
-                          <ul class="submenu has-homemenu">
+                          <!-- <ul class="submenu has-homemenu">
                             <li class="border-none">
                               <div class="homemenu-items">
                                 <div class="row">
@@ -471,7 +404,7 @@
                                 </div>
                               </div>
                             </li>
-                          </ul>
+                          </ul> -->
                         </li>
                         <li class="has-dropdown active d-xl-none">
                           <a href="team.html" class="border-none">
@@ -530,18 +463,28 @@
                         <li>
                           <a href="service.php">Services</a>
                         </li>
-
+                        <!-- <li>
+                                                    <a href="company.html">
+                                                    Company
+                                                    <i class="fas fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="news-grid.html">News Grid</a></li>
+                                                        <li><a href="news.html">News List</a></li>
+                                                        <li><a href="news-details.html">News Details</a></li>
+                                                    </ul>
+                                                </li> -->
                         <li>
                           <a href="contact.php">
                             Contact Us
-                            <i class="fas fa-angle-down"></i>
+                            <!-- <i class="fas fa-angle-down"></i> -->
                           </a>
-                          <ul class="submenu">
+                          <!-- <ul class="submenu">
                             <li><a href="faq.html">Faq</a></li>
                             <li><a href="404.php">Error 404</a></li>
                             <li><a href="support.html">Support</a></li>
                             <li><a href="contact.php">Contact Us</a></li>
-                          </ul>
+                          </ul> -->
                         </li>
                       </ul>
                     </nav>
