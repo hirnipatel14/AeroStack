@@ -737,7 +737,7 @@
                            <div class="contact-left">
                                 <h2 class="wow fadeInUp" data-wow-delay=".3s">Request a <br> Consultation</h2>
                                 <div class="contact-image wow fadeInUp" data-wow-delay=".5s">
-                                    <img src="assets/img/contact.png" alt="contact-img">
+                                    <img src="assets/img/pictures/contact-us-1.jpg" alt="contact-img">
                                 </div>
                            </div>
                         </div>
