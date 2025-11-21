@@ -129,6 +129,12 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #333;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -324,7 +330,7 @@ span {
   }
 }
 .about-wrapper .about-content p {
-  border-bottom: 1px solid var(--border);
+  border-bottom: 0px solid var(--border);
   padding-bottom: 30px;
 }
 .about-wrapper .about-content .about-counter-items {
@@ -1407,6 +1413,7 @@ span {
   border-radius: 16px;
   padding: 35px 25px;
   text-align: center;
+  height: 315px;
   transition: all 0.4s ease-in-out;
 }
 .choose-us-card-items .icon {
@@ -2986,6 +2993,7 @@ span {
 
 .pb-100 {
   padding-bottom: 100px;
+  margin-top: 144px;
 }
 @media (max-width: 991px) {
   .pb-100 {
@@ -5613,6 +5621,11 @@ input.main-search-input::placeholder {
   }
 }
 
+.row.row-hosting-section {
+  justify-content: center;
+  gap: 30px;
+}
+
 .hosting-box-items {
   margin-top: 30px;
   padding: 30px;
@@ -5621,7 +5634,7 @@ input.main-search-input::placeholder {
   background-color: var(--bg);
   position: relative;
   z-index: 9;
-  height: 442px !important;
+  height: 485px !important;
 }
 .hosting-box-items::before {
   position: absolute;
