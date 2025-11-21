@@ -1186,10 +1186,8 @@
                         data-bs-parent="#accordion"
                       >
                         <div class="accordion-body">
-                          Nullam faucibus eleifend mi eu varius. Integer vel
-                          tincidunt massa, quis semper odio. Mauris et mollis
-                          quam. Nullam fringilla erat id ante commodo sodales.
-                          In maximus ultrices euismod. Vivamus porta justo ex.
+                          Installing a WordPress theme is simple.
+                          Upload your theme through the WordPress dashboard or use the File Manager in cPanel, then activate it from the Appearance > Themes section.
                         </div>
                       </div>
                     </div>
@@ -1215,10 +1213,7 @@
                         data-bs-parent="#accordion"
                       >
                         <div class="accordion-body">
-                          Nullam faucibus eleifend mi eu varius. Integer vel
-                          tincidunt massa, quis semper odio. Mauris et mollis
-                          quam. Nullam fringilla erat id ante commodo sodales.
-                          In maximus ultrices euismod. Vivamus porta justo ex.
+                          Yes, we offer fully customised hosting setups tailored to your project’s performance, security, and scalability needs.
                         </div>
                       </div>
                     </div>
@@ -1244,9 +1239,7 @@
                         data-bs-parent="#accordion"
                       >
                         <div class="accordion-body">
-                          There are many variations of passages Lorem Ipsum but
-                          the majority have suffered alteration in some form, by
-                          injected humor.
+                          Our servers are optimised with advanced firewalls, malware protection, NVMe storage, and LiteSpeed technology for best-in-class speed and security.
                         </div>
                       </div>
                     </div>
@@ -1272,10 +1265,7 @@
                         data-bs-parent="#accordion"
                       >
                         <div class="accordion-body">
-                          Nullam faucibus eleifend mi eu varius. Integer vel
-                          tincidunt massa, quis semper odio. Mauris et mollis
-                          quam. Nullam fringilla erat id ante commodo sodales.
-                          In maximus ultrices euismod. Vivamus porta justo ex.
+                          Launch your website or application instantly with our quick-deploy infrastructure and easy-to-use control panel.
                         </div>
                       </div>
                     </div>
