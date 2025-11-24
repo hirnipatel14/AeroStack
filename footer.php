@@ -1,7 +1,7 @@
 <footer class="footer-section fix bg-cover" style="background-image: url('assets/img/section-bg.jpg')">
   <div class="footer-widgets-wrapper">
     <div class="container">
-      <div class="row">
+      <div class="row d-flex justify-content-between">
         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
           <div class="single-footer-widget">
             <div class="widget-head">
