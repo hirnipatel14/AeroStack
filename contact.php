@@ -163,9 +163,10 @@
               </li>
               <li>
                 <i class="fa-light fa-user"></i>
-                <button data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                <!-- <button data-bs-toggle="modal" data-bs-target="#exampleModal2">
                   Login
-                </button>
+                </button> -->
+                <button>Login</button>
               </li>
             </ul>
           </div>

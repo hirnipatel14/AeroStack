@@ -172,9 +172,10 @@
               </li>
               <li>
                 <i class="fa-light fa-user"></i>
-                <button data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                <!-- <button data-bs-toggle="modal" data-bs-target="#exampleModal2">
                   Login
-                </button>
+                </button> -->
+                <button>Login</button>
               </li>
             </ul>
           </div>
@@ -200,9 +201,7 @@
                   </a>
                 </div>
               </div>
-              <div
-                class="header-right d-flex justify-content-end align-items-center"
-              >
+              <div class="header-right d-flex justify-content-end align-items-center">
                 <div class="mean__menu-wrapper">
                   <div class="main-menu">
                     <nav id="mobile-menu">
