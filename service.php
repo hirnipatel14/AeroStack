@@ -846,10 +846,6 @@
       class="brand-section fix section-padding section-bg margin-top-10 pb-0"
     >
       <div class="container">
-        <h3 class="brand-head-title wow fadeInUp" data-wow-delay=".3s">
-          <img src="assets/img/w.png" alt="img" />Recommended By
-          <span>WordPress.org</span>
-        </h3>
         <div class="swiper brand-slider-2">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
