@@ -841,112 +841,7 @@
       </div>
     </section>
 
-    <!-- Brand Section Start -->
-    <div
-      class="brand-section fix section-padding section-bg margin-top-10 pb-0"
-    >
-      <div class="container">
-        <div class="swiper brand-slider-2">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="brand-img center">
-                <img src="assets/img/brand/trustipilot.png" alt="img" />
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="brand-img center">
-                <img src="assets/img/brand/google.png" alt="img" />
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="brand-img center">
-                <img src="assets/img/brand/wpbeginner.png" alt="img" />
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="brand-img center">
-                <img src="assets/img/brand/hostadvice.png" alt="img" />
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="brand-img center">
-                <img src="assets/img/brand/capterra.png" alt="img" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Choose Us Section Start -->
-    <section class="choose-us-section-2 pt-100 pb-100 margin-top-5">
-      <div class="container">
-        <div class="row g-4">
-          <div
-            class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-            data-wow-delay=".2s"
-          >
-            <div class="choose-us-card-items">
-              <div class="icon">
-                <img src="assets/img/choose/safe-icon.png" alt="img" />
-              </div>
-              <div class="content">
-                <h3>Safe and Secured</h3>
-                <p>
-                  Advanced protection with firewalls, encryption, and 24/7 monitoring to keep your data safe.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-            data-wow-delay=".4s"
-          >
-            <div class="choose-us-card-items">
-              <div class="icon">
-                <img src="assets/img/choose/bank-icon.png" alt="img" />
-              </div>
-              <div class="content">
-                <h3>Money-Back Guarantee</h3>
-                <p>30-day refund policy that gives you complete confidence and peace of mind.</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-            data-wow-delay=".6s"
-          >
-            <div class="choose-us-card-items">
-              <div class="icon">
-                <img src="assets/img/choose/secured-icon.png" alt="img" />
-              </div>
-              <div class="content">
-                <h3>99% Uptime</h3>
-                <p>
-                  Redundant systems ensure your website stays online without any interruptions.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-            data-wow-delay=".8s"
-          >
-            <div class="choose-us-card-items">
-              <div class="icon">
-                <img src="assets/img/choose/support-icon.png" alt="img" />
-              </div>
-              <div class="content">
-                <h3>Dedicated Support</h3>
-                <p>24/7 expert assistance available through chat, call, and support ticket.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Hosting Section Start -->
+        <!-- Hosting Section Start -->
     <section class="hosting-section fix section-padding">
       <div class="container">
         <div class="section-title text-center">
@@ -1068,6 +963,109 @@
                 <p>
                   Dedicated virtual hosting engineered for developers who need full control and custom configurations.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Section Start -->
+    <div class="brand-section fix section-padding section-bg margin-top-10 pb-0">
+      <div class="container">
+        <div class="swiper brand-slider-2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="brand-img center">
+                <img src="assets/img/brand/trustipilot.png" alt="img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="brand-img center">
+                <img src="assets/img/brand/google.png" alt="img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="brand-img center">
+                <img src="assets/img/brand/wpbeginner.png" alt="img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="brand-img center">
+                <img src="assets/img/brand/hostadvice.png" alt="img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="brand-img center">
+                <img src="assets/img/brand/capterra.png" alt="img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Choose Us Section Start -->
+    <section class="choose-us-section-2 pt-100 pb-100 margin-top-5">
+      <div class="container">
+        <div class="row g-4">
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+            data-wow-delay=".2s"
+          >
+            <div class="choose-us-card-items">
+              <div class="icon">
+                <img src="assets/img/choose/safe-icon.png" alt="img" />
+              </div>
+              <div class="content">
+                <h3>Safe and Secured</h3>
+                <p>
+                  Advanced protection with firewalls, encryption, and 24/7 monitoring to keep your data safe.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+            data-wow-delay=".4s"
+          >
+            <div class="choose-us-card-items">
+              <div class="icon">
+                <img src="assets/img/choose/bank-icon.png" alt="img" />
+              </div>
+              <div class="content">
+                <h3>Money-Back Guarantee</h3>
+                <p>30-day refund policy that gives you complete confidence and peace of mind.</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+            data-wow-delay=".6s"
+          >
+            <div class="choose-us-card-items">
+              <div class="icon">
+                <img src="assets/img/choose/secured-icon.png" alt="img" />
+              </div>
+              <div class="content">
+                <h3>99% Uptime</h3>
+                <p>
+                  Redundant systems ensure your website stays online without any interruptions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+            data-wow-delay=".8s"
+          >
+            <div class="choose-us-card-items">
+              <div class="icon">
+                <img src="assets/img/choose/support-icon.png" alt="img" />
+              </div>
+              <div class="content">
+                <h3>Dedicated Support</h3>
+                <p>24/7 expert assistance available through chat, call, and support ticket.</p>
               </div>
             </div>
           </div>
