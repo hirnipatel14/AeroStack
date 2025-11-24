@@ -742,7 +742,7 @@
             </ul>
           </div>
           <div class="breadcrumb-image wow fadeInUp" data-wow-delay=".4s">
-            <img src="assets/img/breadcrumb.png" alt="img" />
+            <img src="assets/img/pictures/Service-banner.svg" alt="img" />
           </div>
         </div>
       </div>
