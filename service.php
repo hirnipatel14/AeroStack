@@ -893,8 +893,7 @@
               <div class="content">
                 <h3>Safe and Secured</h3>
                 <p>
-                  Advanced protection with firewalls, encryption, and 24/7
-                  monitoring.
+                  Advanced protection with firewalls, encryption, and 24/7 monitoring to keep your data safe.
                 </p>
               </div>
             </div>
@@ -909,7 +908,7 @@
               </div>
               <div class="content">
                 <h3>Money-Back Guarantee</h3>
-                <p>30-day refund policy for complete peace of mind.</p>
+                <p>30-day refund policy that gives you complete confidence and peace of mind.</p>
               </div>
             </div>
           </div>
@@ -924,8 +923,7 @@
               <div class="content">
                 <h3>99% Uptime</h3>
                 <p>
-                  Redundant systems ensure your website stays online without
-                  interruption.
+                  Redundant systems ensure your website stays online without any interruptions.
                 </p>
               </div>
             </div>
@@ -940,7 +938,7 @@
               </div>
               <div class="content">
                 <h3>Dedicated Support</h3>
-                <p>24/7 expert assistance via chat, call, and ticket.</p>
+                <p>24/7 expert assistance available through chat, call, and support ticket.</p>
               </div>
             </div>
           </div>
@@ -973,8 +971,7 @@
               <div class="content">
                 <h3><a href="dedicated-hosting.html">Dedicated Hosting</a></h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  High-performance, isolated hosting designed for businesses needing full control and advanced security.
                 </p>
               </div>
             </div>
@@ -993,8 +990,7 @@
               <div class="content">
                 <h3><a href="dedicated-hosting.html">Email Hosting</a></h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  Secure, reliable email hosting created for professional communication and smooth, uninterrupted delivery.
                 </p>
               </div>
             </div>
@@ -1013,8 +1009,7 @@
               <div class="content">
                 <h3><a href="dedicated-hosting.html">Ecommerce Hosting</a></h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  Fast, stable, and secure hosting built for online stores and high-volume transactions.
                 </p>
               </div>
             </div>
@@ -1033,8 +1028,7 @@
               <div class="content">
                 <h3><a href="cloud-hosting.html">Cloud Hosting</a></h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  Flexible, scalable cloud hosting made for fast growth and consistently high application performance.
                 </p>
               </div>
             </div>
@@ -1053,8 +1047,7 @@
               <div class="content">
                 <h3><a href="reseller-hosting.html">Reseller Hosting</a></h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  White-label, efficient hosting tailored for agencies offering managed solutions to multiple clients.
                 </p>
               </div>
             </div>
@@ -1073,8 +1066,7 @@
               <div class="content">
                 <h3><a href="vps-hosting.html">VPS Hosting</a></h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  Dedicated virtual hosting engineered for developers who need full control and custom configurations.
                 </p>
               </div>
             </div>
