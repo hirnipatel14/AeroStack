@@ -873,7 +873,7 @@
       </div>
     </div>
 
-    
+     <!-- Brand Section Start -->
     <div class="brand-section pt-0" style="margin-top:120px;">
       <div class="container">
         <div class="swiper brand-slider bor-bottom pb-100 pt-0">

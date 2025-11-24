@@ -6094,7 +6094,8 @@ input.main-search-input::placeholder {
 }
 
 .section-padding {
-  padding: 130px 0;
+  padding-top: 70px !important;
+  padding-bottom: 100px !important;
 }
 @media (max-width: 1199px) {
   .section-padding {

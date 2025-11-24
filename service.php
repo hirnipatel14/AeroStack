@@ -971,33 +971,38 @@
     </section>
 
     <!-- Brand Section Start -->
-    <div class="brand-section fix section-padding section-bg margin-top-10 pb-0">
+    <div class="brand-section pt-0" style="margin-top:120px;">
       <div class="container">
-        <div class="swiper brand-slider-2">
+        <div class="swiper brand-slider bor-bottom pb-100 pt-0">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="brand-img center">
-                <img src="assets/img/brand/trustipilot.png" alt="img" />
+                <img src="assets/img/brand/indieplex.png" alt="img" />
               </div>
             </div>
             <div class="swiper-slide">
               <div class="brand-img center">
-                <img src="assets/img/brand/google.png" alt="img" />
+                <img src="assets/img/brand/nextech.png" alt="img" />
               </div>
             </div>
             <div class="swiper-slide">
               <div class="brand-img center">
-                <img src="assets/img/brand/wpbeginner.png" alt="img" />
+                <img src="assets/img/brand/techbox.png" alt="img" />
               </div>
             </div>
             <div class="swiper-slide">
               <div class="brand-img center">
-                <img src="assets/img/brand/hostadvice.png" alt="img" />
+                <img src="assets/img/brand/wattse.png" alt="img" />
               </div>
             </div>
             <div class="swiper-slide">
               <div class="brand-img center">
-                <img src="assets/img/brand/capterra.png" alt="img" />
+                <img src="assets/img/brand/chatbot.png" alt="img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="brand-img center">
+                <img src="assets/img/brand/indieplex.png" alt="img" />
               </div>
             </div>
           </div>
@@ -1005,10 +1010,17 @@
       </div>
     </div>
 
-    <!-- Choose Us Section Start -->
-    <section class="choose-us-section-2 pt-100 pb-100 margin-top-5">
+
+       <!-- Choose Us Section Start -->
+    <section class="choose-us-section fix section-padding">
       <div class="container">
-        <div class="row g-4">
+        <div class="section-title text-center">
+          <span class="style-bg wow fadeInUp">Why Choose Us</span>
+          <h2 class="wow fadeInUp" data-wow-delay=".3s">
+            Why Choose AeroStack
+          </h2>
+        </div>
+        <div class="row">
           <div
             class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
             data-wow-delay=".2s"
@@ -1020,7 +1032,8 @@
               <div class="content">
                 <h3>Safe and Secured</h3>
                 <p>
-                  Advanced protection with firewalls, encryption, and 24/7 monitoring to keep your data safe.
+                  Advanced protection with firewalls, encryption, and 24/7
+                  monitoring.
                 </p>
               </div>
             </div>
@@ -1035,7 +1048,7 @@
               </div>
               <div class="content">
                 <h3>Money-Back Guarantee</h3>
-                <p>30-day refund policy that gives you complete confidence and peace of mind.</p>
+                <p>30-day refund policy for complete peace of mind.</p>
               </div>
             </div>
           </div>
@@ -1050,7 +1063,8 @@
               <div class="content">
                 <h3>99% Uptime</h3>
                 <p>
-                  Redundant systems ensure your website stays online without any interruptions.
+                  Redundant systems ensure your website stays online without
+                  interruption.
                 </p>
               </div>
             </div>
@@ -1065,7 +1079,7 @@
               </div>
               <div class="content">
                 <h3>Dedicated Support</h3>
-                <p>24/7 expert assistance available through chat, call, and support ticket.</p>
+                <p>24/7 expert assistance via chat, call, and ticket.</p>
               </div>
             </div>
           </div>
