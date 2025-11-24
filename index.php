@@ -1500,7 +1500,7 @@
           <div class="col-lg-3 wow fadeInUp" data-wow-delay=".4s">
             <div class="cta-contact-image mb-0">
               <img
-                src="assets/img/pictures/Active Support-amico.png"
+                src="assets/img/pictures/Contact us-banner.svg"
                 alt="img"
               />
             </div>
@@ -1600,7 +1600,7 @@
           <div class="row g-4 align-items-center">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
               <div class="feature-image">
-                <img src="assets/img/pictures/Cloud-server-2.jpg" alt="img" />
+                <img src="assets/img/pictures/Cloud-server-2.svg" alt="img" />
               </div>
             </div>
             <div class="col-lg-6">
