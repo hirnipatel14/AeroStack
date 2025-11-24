@@ -757,7 +757,7 @@
                     </div>
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
                         <div class="hero-image">
-                            <img src="assets/img/pictures/Cloud hosting-pana.svg" alt="img" height="600px" width="600px">
+                            <img src="assets/img/pictures/Data-centre-aero-stack.jpg" alt="img" height="600px" width="600px">
                         </div>
                     </div>
                 </div>
