@@ -175,7 +175,7 @@
                                 <a href="tel:+20866660112">+208-6666-0112</a>
                             </li>
                         </ul>
-                        <p>Hostech Flash Discount: Starting at <b>$3.49/mo</b> for a Limited time</p>
+                        <p>AeroStack Flash Discount: Starting at <b>$3.49/mo</b> for a Limited time</p>
                         <ul class="list">
                             <li><i class="fa-light fa-comments"></i><a href="contact.php">Live Chat</a></li>
                             <li><i class="fa-light fa-user"></i>
@@ -291,7 +291,7 @@
                                                                             <div class="content">
                                                                                 <h6><a href="about.php">About Us</a></h6>
                                                                                 <p>
-                                                                                    About hostech
+                                                                                    About AeroStack
                                                                                 </p>
                                                                             </div>
                                                                         </div>
@@ -453,7 +453,7 @@
                                                                             <div class="content">
                                                                                 <h6><a href="share-hosting.html">Share Hosting</a></h6>
                                                                                 <p>
-                                                                                    About hostech
+                                                                                    About AeroStack
                                                                                 </p>
                                                                             </div>
                                                                         </div>
