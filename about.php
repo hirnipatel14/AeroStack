@@ -726,7 +726,7 @@
                                 <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                                     We go beyond simple hosting to deliver an environment where your data thrives. Focus on innovation and growth, while we handle the infrastructure with guaranteed uptime, ironclad security, and seamless scalability.
                                 </p>
-                                <div class="about-counter-items">
+                                <div class="about-counter-items" style="width:fit-content">
                                     <div class="counter-items wow fadeInUp" data-wow-delay=".3s">
                                         <h2><span class="count">50</span>k</h2>
                                         <h6>Global Customers</h6>
@@ -735,7 +735,7 @@
                                         <h2><span class="count">98</span>%</h2>
                                         <h6>Success Case</h6>
                                     </div>
-                                    <div class="video-thumb wow fadeInUp" data-wow-delay=".7s">
+                                    <!-- <div class="video-thumb wow fadeInUp" data-wow-delay=".7s">
                                         <img src="assets/img/about/video-img.jpg" alt="video-img">
                                         <div class="video-box">
                                             <span class="button-text wow fadeInUp">
@@ -744,7 +744,7 @@
                                                 </a>
                                             </span>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
