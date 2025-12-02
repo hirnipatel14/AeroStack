@@ -90,8 +90,8 @@ try {
     $mail->setFrom('digital@hbsoftweb.com', 'AeroStack Website');
 
     // RECEIVING MAILBOXES
-    $mail->addAddress('jaymodihbsoftweb@gmail.com');
-    $mail->addCC('digital@hbsoftweb.com');
+    $mail->addAddress('info@aero-stack.com');
+    $mail->addCC('info@hbsoftweb.com');
 
     // Reply-to visitor
     $mail->addReplyTo($email, $name);
