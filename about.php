@@ -448,7 +448,7 @@
                               >
                             </li>
                             <li>
-                              <a href="cloud-hosting.html">Cloud Hosting</a>
+                              <a href="#">Cloud Hosting</a>
                             </li>
                           </ul>
                         </li>
@@ -968,7 +968,7 @@
                   using the right icon of each block. Then, duplicate one of the
                   columns to create a new one as a copy.
                 </p>
-                <a href="reseller-hosting.html" class="theme-btn mt-4"
+                <a href="#" class="theme-btn mt-4"
                   >Best hosting <i class="fa-regular fa-chevrons-right"></i
                 ></a>
               </div>
@@ -991,7 +991,7 @@
                   conveys your message. Click on the image to adjust its rounded
                   corner style.
                 </p>
-                <a href="cloud-hosting.html" class="theme-btn mt-4"
+                <a href="#" class="theme-btn mt-4"
                   >Best hosting <i class="fa-regular fa-chevrons-right"></i
                 ></a>
               </div>
