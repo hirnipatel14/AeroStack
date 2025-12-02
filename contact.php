@@ -800,16 +800,16 @@
                                             <div class="form-clt">
                                                 <div class="category-oneadjust">
                                                     <select name="cate" class="category">
-                                                        <option value="1">
+                                                        <option value="None">
                                                             Subject
                                                         </option>
-                                                        <option value="1">
+                                                        <option value="Doming">
                                                           Doming
                                                         </option>
-                                                        <option value="1">
+                                                        <option value="Hosting">
                                                             Hosting
                                                         </option>
-                                                        <option value="1">
+                                                        <option value="VPS Hosting">
                                                           VPS Hosting
                                                         </option>
                                                     </select>
