@@ -77,7 +77,7 @@
                   Contact Us
                 </a>
               </li>
-              
+
             </ul>
           </div>
         </div>
@@ -93,19 +93,19 @@
                   Privacy Policy
                 </a>
               </li>
-                            <li>
+              <li>
                 <a href="refund-policy.php">
                   <i class="fa-regular fa-chevrons-right"></i>
                   Refund Policy
                 </a>
               </li>
-                            <li>
+              <li>
                 <a href="terms-and-conditions.php">
                   <i class="fa-regular fa-chevrons-right"></i>
                   Terms & Conditions
                 </a>
               </li>
-                            <li>
+              <li>
                 <a href="#">
                   <i class="fa-regular fa-chevrons-right"></i>
                   Login
@@ -160,14 +160,17 @@
             </div>
             <div class="footer-content">
               <p>
-                Sign up to seargin weekly newsletter to get the latest
+                Sign up to Aerostack weekly newsletter to get the latest
                 updates.
               </p>
               <div class="footer-input">
-                <input type="email" id="email2" placeholder="Enter Email Address" />
-                <button class="newsletter-btn" type="submit">
-                  <i class="fa-regular fa-paper-plane"></i>
-                </button>
+                <form action="subscribe-mail.php" method="POST" class="footer-input" autocomplete="off">
+                  <input type="email" id="email2" name="subscriber_email" placeholder="Enter Email Address" required />
+                  <button class="newsletter-btn" type="submit">
+                    <i class="fa-regular fa-paper-plane"></i>
+                  </button>
+                </form>
+
               </div>
               <div class="social-icon d-flex align-items-center">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
