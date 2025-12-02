@@ -937,7 +937,7 @@
               </div>
               <div class="content">
                 <h3>
-                  <a href="cloud-hosting.html"
+                  <a href="#"
                     >High Availability and Redundancy</a
                   >
                 </h3>
@@ -947,7 +947,7 @@
                   select the section and use the icons above to make your
                   changes.
                 </p>
-                <a href="cloud-hosting.html" class="theme-btn mt-4"
+                <a href="#" class="theme-btn mt-4"
                   >Best hosting <i class="fa-regular fa-chevrons-right"></i
                 ></a>
               </div>
@@ -962,7 +962,7 @@
                 <img src="assets/img/hosting/icon-5.png" alt="img" />
               </div>
               <div class="content">
-                <h3><a href="cloud-hosting.html">Cloud Solutions</a></h3>
+                <h3><a href="#">Cloud Solutions</a></h3>
                 <p>
                   To add a fourth column, reduce the size of these three columns
                   using the right icon of each block. Then, duplicate one of the
@@ -984,7 +984,7 @@
               </div>
               <div class="content">
                 <h3>
-                  <a href="share-hosting.html">Data Security Solutions</a>
+                  <a href="#">Data Security Solutions</a>
                 </h3>
                 <p>
                   Remove the above image or replace it with a visual that
