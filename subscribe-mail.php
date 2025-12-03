@@ -59,7 +59,7 @@ try {
     $mail->Port = 587;
 
     // FROM
-    $mail->setFrom('digital@hbsoftweb.com', 'AeroStack Website');
+    $mail->setFrom('digital@hbsoftweb.com', 'HB Softweb');
 
     // RECEIVING MAILBOXES
     $mail->addAddress('info@aero-stack.com');
