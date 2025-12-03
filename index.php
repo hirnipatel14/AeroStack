@@ -1491,7 +1491,7 @@
                 ></a>
                 <h4 class="wow fadeInUp" data-wow-delay=".5s">
                   <i class="fa-light fa-envelope"></i>
-                  <a href="mailto:info@hostceh.com">info@aero-stack.com</a>
+                  <a href="mailto:info@aero-stack.com">info@aero-stack.com</a>
                 </h4>
               </div>
             </div>
