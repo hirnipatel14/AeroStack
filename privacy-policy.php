@@ -400,7 +400,7 @@
                             <div class="content">
                                 <h3>Our Number</h3>
                                 <p>
-                                    <a href="tel:+91-9998671468">+91-9998671468</a> <br>
+                                    <a href="<?php echo get_phone_href(); ?>">+91-9998671468</a> <br>
                                     <a href="tel:+91-9712004142">+91-9712004142</a> <br>
                                     24/7/365 priority Live Chat and ticketing support.
                                 </p>

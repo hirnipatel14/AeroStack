@@ -1,3 +1,4 @@
+<?php include_once __DIR__ . '/inc/phone_helper.php'; ?>
 <footer class="footer-section fix bg-cover" style="background-image: url('assets/img/section-bg.jpg')">
   <div class="footer-widgets-wrapper">
     <div class="container">
@@ -33,7 +34,7 @@
                       </clipPath>
                     </defs>
                   </svg>
-                  <a href="tel:+91-9998671468">+91-9998671468</a>
+                  <a href="<?php echo get_phone_href(); ?>">+91-9998671468</a>
                 </li>
                 <li>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">

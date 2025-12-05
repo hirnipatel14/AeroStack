@@ -1,3 +1,4 @@
+<?php include_once __DIR__ . '/inc/phone_helper.php'; ?>
 <header class="header-section-1">
   <div class="header-top">
     <div class="container">
@@ -9,7 +10,7 @@
           </li>
           <li>
             <i class="fa-regular fa-phone"></i>
-            <a href="tel:+91-9998671468">+91-9998671468</a>
+            <a href="<?php echo get_phone_href(); ?>">+91-9998671468</a>
           </li>
         </ul>
         <p class="aero-flash">
