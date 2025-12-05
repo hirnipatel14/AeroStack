@@ -15,7 +15,7 @@ function is_mobile_device() {
 
 function get_phone_href() {
     // Core phone number parts (used for WhatsApp and displayed text)
-    $digits = '+919998671468';
+    $digits = '9998671468';
     $display = '+91-9998671468';
 
     if (is_mobile_device()) {
