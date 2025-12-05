@@ -4851,6 +4851,10 @@ input.main-search-input::placeholder {
   .pricing-card-items.responsive-pricing-style {
     position: relative;
     padding: 40px 40px;
+    height: 540px;
+  }
+.pricing-card-items .pricing-bg img{
+    display: none;
   }
   .pricing-card-items.responsive-pricing-style::before {
     position: absolute;

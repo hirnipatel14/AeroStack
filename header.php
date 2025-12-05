@@ -13,13 +13,13 @@
             <a href="<?php echo get_phone_href(); ?>">+91-9998671468</a>
           </li>
         </ul>
-        <p class="aero-flash">
-          AeroStack Flash Discount: Starting at <b>₹2,500/month</b> for a
-          Limited time
-        </p>
+        <marquee class="aero-flash top-marque">
+          <p>AeroStack Flash Discount: Starting at <b>₹2,500/month</b> for a
+          Limited time</p>
+        </marquee>
         <ul class="list">
           <li>
-            <i class="fa-light fa-comments"></i><a href="ithelpdesk@aero-stack.com">Support Ticket</a>
+            <i class="fa-light fa-comments"></i><a href="mailto:ithelpdesk@aero-stack.com">Support Ticket</a>
           </li>
           <li>
             <i class="fa-light fa-user"></i>
@@ -202,6 +202,10 @@
 .mobile-dropdown ul li:last-child{border-bottom:0}
 /* ensure toggle hidden on large screens */
 @media(min-width:1200px){.mobile-menu-toggle,.mobile-dropdown{display:none!important}}
+.top-marque {
+    width: 100%;
+    max-width: 750px;
+}
 </style>
 
 <script>
