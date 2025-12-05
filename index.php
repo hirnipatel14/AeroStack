@@ -1141,7 +1141,7 @@
               </div>
               <div class="cta-contact-button mt-4 mt-md-0">
                 <a
-                  href="contact.php"
+                  href="https://api.whatsapp.com/send?phone=9998671468"
                   class="theme-btn bg-color-2 wow fadeInUp"
                   data-wow-delay=".5s"
                   >WhatsApp Now <i class="fas fa-long-arrow-alt-right"></i
