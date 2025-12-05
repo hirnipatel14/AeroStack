@@ -105,12 +105,12 @@
                   Terms & Conditions
                 </a>
               </li>
-              <li>
+              <!-- <li>
                 <a href="#">
                   <i class="fa-regular fa-chevrons-right"></i>
                   Login
                 </a>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>

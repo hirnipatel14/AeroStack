@@ -2068,11 +2068,11 @@ span {
   background: #002BAE;
   padding: 12px 0;
 }
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   .header-top {
     display: none;
   }
-}
+} */
 
 .header-top-wrapper {
   display: flex;
@@ -3209,7 +3209,7 @@ span {
 }
 @media (max-width: 575px) {
   .hero-1.style-hero-2 {
-    padding: 200px 0 327px;
+    padding: 200px 0 200px !important;
   }
 }
 @media (max-width: 767px) {
@@ -4804,8 +4804,8 @@ input.main-search-input::placeholder {
   z-index: -1;
 }
 .pricing-card-items .pricing-bg img {
-  width: 100%;
-  height: 100%;
+    width: 438px;
+    height: 430px;
 }
 .pricing-card-items .pricing-header {
   padding: 30px 30px 40px 100px;
@@ -6717,3 +6717,34 @@ input.main-search-input::placeholder {
 .testimonial-click-text a:hover {
   background-color: var(--theme2);
 }/*# sourceMappingURL=maincss.map */
+
+/* ---------------------------------------- */
+@media (max-width: 1199px){
+    .aero-flash{
+      display: none;
+    }
+}
+
+@media (min-width: 1199px){
+  .aero-yellow{
+    display: none !important;
+  }
+}
+
+@media (max-width:767px){
+.header-top-wrapper .contact-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 0px;
+    flex-direction: column;
+}
+}
+
+@media (max-width:430px){
+.header-top-wrapper .list {
+    display: flex;
+    align-items: flex-end;
+    gap: 0px;
+    flex-direction: column;
+}
+}
