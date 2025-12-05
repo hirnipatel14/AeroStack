@@ -2074,6 +2074,9 @@ span {
 .header-top {
   background: #002BAE;
   padding: 12px 0;
+  display: block;
+  position: relative;
+  z-index: 999;
 }
 @media (max-width: 1199px) {
   .header-top {
@@ -6750,8 +6753,17 @@ input.main-search-input::placeholder {
     flex-direction: column;
 }
 
+.header-top {
+  padding: 10px 0;
+}
+
+.header-top-wrapper {
+  /* flex-direction: column; */
+  gap: 10px;
+}
+
 .hero-section,.breadcrumb-wrapper{
-  margin-top: 124px;
+  margin-top: 120px;
 }
 }
 
@@ -6762,5 +6774,16 @@ input.main-search-input::placeholder {
     gap: 0px;
     flex-direction: column;
 }
+}
+
+/* Mobile Header Sticky Fix */
+@media (max-width: 1199px) {
+  .sticky {
+    top: 0 !important;
+  }
+  
+  .sticky.header-2 {
+    margin-top: 0;
+  }
 }
 

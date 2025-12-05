@@ -19,7 +19,7 @@
         </p>
         <ul class="list">
           <li>
-            <i class="fa-light fa-comments"></i><a href="contact.php">Support Ticket</a>
+            <i class="fa-light fa-comments"></i><a href="ithelpdesk@aero-stack.com">Support Ticket</a>
           </li>
           <li>
             <i class="fa-light fa-user"></i>
