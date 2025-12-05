@@ -2068,11 +2068,11 @@ span {
   background: #002BAE;
   padding: 12px 0;
 }
-/* @media (max-width: 1199px) {
+@media (max-width: 1199px) {
   .header-top {
-    display: none;
+    display: block;
   }
-} */
+}
 
 .header-top-wrapper {
   display: flex;

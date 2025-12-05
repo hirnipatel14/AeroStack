@@ -11,9 +11,9 @@
 	background: #002BAE;
 	padding: 12px 0;
 
-	// @include breakpoint (max-xl){
-	// 	display: none;
-	// }
+	@include breakpoint (max-xl){
+		display: block;
+	}
 }
 
 .header-top-wrapper {
