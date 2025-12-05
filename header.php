@@ -97,7 +97,7 @@
                         <i class="fas fa-angle-down"></i>
                       </a>
                       <ul class="submenu">
-                        <li><a href="./">Web Hosting</a></li>
+                        <!-- <li><a href="./">Web Hosting</a></li> -->
                         <li><a href="index-2.html">Hosting Services</a></li>
                         <li>
                           <a href="index-3.html">Hosting Solutions</a>
@@ -171,6 +171,12 @@
                   </ul>
                 </nav>
               </div>
+              <!-- Mobile menu toggle (visible on tablet/mobile) -->
+              <button id="mobileMenuToggle" class="mobile-menu-toggle d-xl-none" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+              </button>
+              <!-- Dropdown container that will be populated with the existing menu on mobile -->
+              <div class="mobile-dropdown d-xl-none" aria-hidden="true"></div>
             </div>
             <div class="header-button">
               <a href="https://shop.aero-stack.com" class="theme-btn">
@@ -184,3 +190,78 @@
     </div>
   </div>
 </header>
+<style>
+/* Mobile dropdown styles */
+.mobile-menu-toggle{background:none;border:0;color:inherit;font-size:22px;padding:6px 10px}
+.mobile-dropdown{display:none;position:absolute;right:16px;top:72px;background:#fff;border-radius:6px;box-shadow:0 8px 24px rgba(0,0,0,.12);z-index:9999;min-width:220px;max-width:90vw}
+.mobile-dropdown.open{display:block}
+.mobile-dropdown ul{list-style:none;margin:0;padding:8px 0}
+.mobile-dropdown ul li{display:block;padding:10px 16px;border-bottom:1px solid rgba(0,0,0,.04)}
+.mobile-dropdown ul li a{color:#333}
+.mobile-dropdown ul li:last-child{border-bottom:0}
+/* ensure toggle hidden on large screens */
+@media(min-width:1200px){.mobile-menu-toggle,.mobile-dropdown{display:none!important}}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var toggle = document.getElementById('mobileMenuToggle');
+  var dropdown = document.querySelector('.mobile-dropdown');
+  var sourceNav = document.getElementById('mobile-menu');
+  if(toggle && dropdown && sourceNav){
+    // Build a filtered menu containing only the desktop pages: Home, About, Services, Contact
+    var allowedEnds = ['/', './', 'index.php', 'index.html', 'about.php', 'service.php', 'contact.php'];
+    var seen = new Set();
+    var newUl = document.createElement('ul');
+    // Look through all anchors inside the source nav and keep only allowed ones
+    var anchors = sourceNav.querySelectorAll('a');
+    anchors.forEach(function(a){
+      var href = (a.getAttribute('href') || '').trim();
+      if(!href) return;
+      // normalize by removing query/hash
+      var clean = href.split(/[?#]/)[0];
+      // convert absolute to relative if needed
+      if(clean.indexOf(window.location.origin) === 0){
+        clean = clean.slice(window.location.origin.length) || '/';
+      }
+      // test allowed list by exact match or by filename ending
+      var keep = allowedEnds.some(function(e){ return clean === e || clean.endsWith(e); });
+      if(keep){
+        // avoid duplicates
+        var key = clean + '|' + a.textContent.trim();
+        if(seen.has(key)) return;
+        seen.add(key);
+        var li = document.createElement('li');
+        var clonedA = a.cloneNode(true);
+        // Ensure links in mobile dropdown close menu when clicked
+        clonedA.addEventListener('click', function(){ dropdown.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); dropdown.setAttribute('aria-hidden','true'); });
+        li.appendChild(clonedA);
+        newUl.appendChild(li);
+      }
+    });
+    // If no items matched (fallback), clone the whole menu
+    if(newUl.children.length === 0){
+      var fallback = sourceNav.querySelector('ul').cloneNode(true);
+      dropdown.appendChild(fallback);
+    } else {
+      dropdown.appendChild(newUl);
+    }
+
+    toggle.addEventListener('click', function(e){
+      e.stopPropagation();
+      var isOpen = dropdown.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen);
+      dropdown.setAttribute('aria-hidden', !isOpen);
+    });
+
+    // close when clicking outside
+    document.addEventListener('click', function(e){
+      if(!dropdown.contains(e.target) && !toggle.contains(e.target)){
+        dropdown.classList.remove('open');
+        toggle.setAttribute('aria-expanded','false');
+        dropdown.setAttribute('aria-hidden','true');
+      }
+    });
+  }
+});
+</script>

@@ -333,7 +333,7 @@
             <div class="container">
                 <div class="page-heading">
                     <div class="page-header-left">
-                        <h1 class="wow fadeInUp" data-wow-delay=".3s">Refund Policy</h1>
+                        <h1 class="wow fadeInUp mt-5" data-wow-delay=".3s">Refund Policy</h1>
                         <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                             <li>
                                 <a href="index.php">

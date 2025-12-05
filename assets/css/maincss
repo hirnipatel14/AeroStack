@@ -6738,6 +6738,10 @@ input.main-search-input::placeholder {
     gap: 0px;
     flex-direction: column;
 }
+
+.hero-section,.breadcrumb-wrapper{
+  margin-top: 124px;
+}
 }
 
 @media (max-width:430px){
