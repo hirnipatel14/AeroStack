@@ -554,7 +554,7 @@
     </div> -->
 
     <!-- Hosting Section Start -->
-    <section class="hosting-section fix section-padding">
+    <section class="hosting-section fix section-padding pb-5">
       <div class="container">
         <div class="section-title-area">
           <div class="section-title">
@@ -592,9 +592,9 @@
                   select the section and use the icons above to make your
                   changes.
                 </p>
-                <a href="https://www.aero-stack.com/shop" class="theme-btn mt-4"
+                <!-- <a href="https://www.aero-stack.com/shop" class="theme-btn mt-4"
                   >Best hosting <i class="fa-regular fa-chevrons-right"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
           </div>
@@ -613,9 +613,9 @@
                   using the right icon of each block. Then, duplicate one of the
                   columns to create a new one as a copy.
                 </p>
-                <a href="https://www.aero-stack.com/shop" class="theme-btn mt-4"
+                <!-- <a href="https://www.aero-stack.com/shop" class="theme-btn mt-4"
                   >Best hosting <i class="fa-regular fa-chevrons-right"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
           </div>
@@ -636,14 +636,20 @@
                   conveys your message. Click on the image to adjust its rounded
                   corner style.
                 </p>
-                <a href="https://www.aero-stack.com/shop" class="theme-btn mt-4"
+                <!-- <a href="https://www.aero-stack.com/shop" class="theme-btn mt-4"
                   >Best hosting <i class="fa-regular fa-chevrons-right"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
           </div>
         </div>
+        <div>
+
+        </div>
       </div>
+    </section>
+    <section class="hosting-section fix text-center mb-5">
+                <a href="https://shop.aero-stack.com" class="theme-btn wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">Get Started Now <i class="fas fa-long-arrow-alt-right"></i></a>
     </section>
 
     <!-- Pricing plan index-1 -->
