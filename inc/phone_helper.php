@@ -20,7 +20,7 @@ function get_phone_href() {
 
     if (is_mobile_device()) {
         // On mobile: use the site-specific tel URL per request
-        return 'https://aerostack.designmasters.in/tel:' . $display;
+        return 'tel:' . $display;
     }
 
     // On desktop: open WhatsApp chat
