@@ -2078,11 +2078,11 @@ span {
   position: relative;
   z-index: 999;
 }
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   .header-top {
     display: block;
   }
-}
+} */
 
 .header-top-wrapper {
   display: flex;
