@@ -78,6 +78,12 @@
                   Contact Us
                 </a>
               </li>
+              <li>
+                <a href="https://shop.aero-stack.com">
+                  <i class="fa-regular fa-chevrons-right"></i>
+                  Shop
+                </a>
+              </li>
 
             </ul>
           </div>
