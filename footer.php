@@ -79,7 +79,7 @@
                 </a>
               </li>
               <li>
-                <a href="https://shop.aero-stack.com">
+                <a href="https://shop.aero-stack.com/shop">
                   <i class="fa-regular fa-chevrons-right"></i>
                   Shop
                 </a>

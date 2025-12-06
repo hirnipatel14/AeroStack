@@ -170,7 +170,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="https://shop.aero-stack.com">
+                      <a href="https://shop.aero-stack.com/shop">
                         Shop
                         <!-- <i class="fas fa-angle-down"></i> -->
                       </a>
@@ -186,7 +186,7 @@
               <div class="mobile-dropdown d-xl-none" aria-hidden="true"></div>
             </div>
             <div class="header-button">
-              <a href="https://shop.aero-stack.com" class="theme-btn">
+              <a href="https://shop.aero-stack.com/shop" class="theme-btn">
                 get Started now
                 <i class="fa-solid fa-arrow-right-long"></i>
               </a>
@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', function(){
   var sourceNav = document.getElementById('mobile-menu');
   if(toggle && dropdown && sourceNav){
     // Build a filtered menu containing only the desktop pages: Home, About, Services, Contact
-    var allowedEnds = ['/', './', 'index.php', 'index.html', 'about.php', 'service.php', 'contact.php', 'https://shop.aero-stack.com'];
+    var allowedEnds = ['/', './', 'index.php', 'index.html', 'about.php', 'service.php', 'contact.php', 'https://shop.aero-stack.com/shop'];
     var seen = new Set();
     var newUl = document.createElement('ul');
     // Look through all anchors inside the source nav and keep only allowed ones

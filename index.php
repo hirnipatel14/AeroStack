@@ -386,7 +386,7 @@
                                 </ul>
                             </div> -->
                             <div class="hero-author">
-                                <a href="https://shop.aero-stack.com" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".7s">
+                                <a href="https://shop.aero-stack.com/shop" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".7s">
                                     Get Started Now <i class="fas fa-long-arrow-alt-right"></i>
                                 </a>
                                 <a href="service.php" class="theme-btn border-white wow fadeInUp" data-wow-delay=".7s">
@@ -649,7 +649,7 @@
       </div>
     </section>
     <section class="hosting-section fix text-center mb-5">
-                <a href="https://shop.aero-stack.com" class="theme-btn wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">Get Started Now <i class="fas fa-long-arrow-alt-right"></i></a>
+                <a href="https://shop.aero-stack.com/shop" class="theme-btn wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">Get Started Now <i class="fas fa-long-arrow-alt-right"></i></a>
     </section>
 
     <!-- Pricing plan index-1 -->
@@ -861,7 +861,7 @@
             </div>
             <div>
                   <div class="pricing-button mt-5 pt-5 text-center">
-                    <a href="https://shop.aero-stack.com" class="theme-btn">
+                    <a href="https://shop.aero-stack.com/shop" class="theme-btn">
                       get Started Now
                       <i class="fas fa-long-arrow-alt-right"></i>
                     </a>
@@ -1017,7 +1017,7 @@
             </div>
                         <div>
                   <div class="pricing-button mt-5 pt-5 text-center">
-                    <a href="https://shop.aero-stack.com" class="theme-btn">
+                    <a href="https://shop.aero-stack.com/shop" class="theme-btn">
                       get Started Now
                       <i class="fas fa-long-arrow-alt-right"></i>
                     </a>
@@ -1302,7 +1302,7 @@
                   </ul>
                 </div>
                 <a
-                  href="https://shop.aero-stack.com"
+                  href="https://shop.aero-stack.com/shop"
                   class="theme-btn wow fadeInUp"
                   data-wow-delay=".7s"
                 >

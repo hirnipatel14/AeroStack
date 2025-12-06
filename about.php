@@ -438,7 +438,7 @@
                   </li>
                 </ul>
               </div>
-              <a href="https://shop.aero-stack.com" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Get Started Now <i
+              <a href="https://shop.aero-stack.com/shop" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Get Started Now <i
                   class="fas fa-long-arrow-alt-right"></i>
               </a>
             </div>

@@ -482,7 +482,7 @@
     </section>
     <section class="hosting-section fix text-center">
                 <a
-            href="https://shop.aero-stack.com"
+            href="https://shop.aero-stack.com/shop"
             class="theme-btn wow fadeInUp"
             data-wow-delay=".5s"
             >subscribe your plan <i class="fas fa-long-arrow-alt-right"></i
