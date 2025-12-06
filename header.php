@@ -169,6 +169,12 @@
                         <!-- <i class="fas fa-angle-down"></i> -->
                       </a>
                     </li>
+                    <li>
+                      <a href="https://shop.aero-stack.com">
+                        Shop
+                        <!-- <i class="fas fa-angle-down"></i> -->
+                      </a>
+                    </li>
                   </ul>
                 </nav>
               </div>
@@ -215,7 +221,7 @@ document.addEventListener('DOMContentLoaded', function(){
   var sourceNav = document.getElementById('mobile-menu');
   if(toggle && dropdown && sourceNav){
     // Build a filtered menu containing only the desktop pages: Home, About, Services, Contact
-    var allowedEnds = ['/', './', 'index.php', 'index.html', 'about.php', 'service.php', 'contact.php'];
+    var allowedEnds = ['/', './', 'index.php', 'index.html', 'about.php', 'service.php', 'contact.php', 'https://shop.aero-stack.com'];
     var seen = new Set();
     var newUl = document.createElement('ul');
     // Look through all anchors inside the source nav and keep only allowed ones
