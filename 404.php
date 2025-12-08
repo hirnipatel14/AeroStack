@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="assets/css/meanmenu.css">
     <!--<< Swiper Bundle.css >>-->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!--<< Nice Select.css >>-->
+    <!--<< Nice Select.css >>--> 
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!--<< Color.css >>-->
     <link rel="stylesheet" href="assets/css/color.css">
