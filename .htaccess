@@ -3,17 +3,21 @@ RewriteEngine On
 # ✅ Disable directory browsing
 Options -Indexes
 
+# ✅ Remove trailing slash: /about/ → /about
+RewriteCond %{REQUEST_URI} .+/$
+RewriteRule ^(.+)/$ $1 [R=301,L]
+
 # ✅ Allow real files and folders
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
-# ✅ Clean URL mapping: /about → about.php
+# ✅ Clean URL: /about → about.php
+RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^([^/]+)$ $1.php [L]
 
-# ✅ If the mapped PHP file still does NOT exist → force 404
-RewriteCond %{REQUEST_FILENAME}.php !-f
-RewriteRule ^.*$ /404.php [L]
+# ✅ Force 404 ONLY if file truly does not exist
+RewriteRule ^.*$ /aerostack/404.php [L]
 
 # ✅ Custom 404 handler
-ErrorDocument 404 /404.php
+ErrorDocument 404 /aerostack/404.php
