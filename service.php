@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="assets/css/color.css" />
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css" />
+      <?php include './inc/gtm.php'; ?>
   </head>
   <body>
     <!-- Preloader Start -->
