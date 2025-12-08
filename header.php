@@ -33,39 +33,18 @@
   </div>
   <div class="bg-warning p-2 d-flex justify-content-center aero-yellow">
   <marquee behavior="scroll" direction="" >
-    &#x25CF;AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time &#x25CF;
-    AeroStack Flash Discount: Starting at ₹2,500/month for a Limited time 
+    AeroStack Flash Discount: Starting at <b>₹2,500/month</b> for a <b>Limited time</b> &#x25CF;
+    AeroStack Flash Discount: Starting at <b>₹2,500/month</b> for a <b>Limited time</b> &#x25CF;
+    AeroStack Flash Discount: Starting at <b>₹2,500/month</b> for a <b>Limited time</b> &#x25CF;
+    AeroStack Flash Discount: Starting at <b>₹2,500/month</b> for a <b>Limited time</b> &#x25CF;
+    AeroStack Flash Discount: Starting at <b>₹2,500/month</b> for a <b>Limited time</b> &#x25CF;
+    AeroStack Flash Discount: Starting at <b>₹2,500/month</b> for a <b>Limited time</b> &#x25CF;
+    AeroStack Flash Discount: Starting at <b>₹2,500/month</b> for a <b>Limited time</b> &#x25CF;
+    AeroStack Flash Discount: Starting at <b>₹2,500/month</b> for a <b>Limited time</b> &#x25CF;
+    AeroStack Flash Discount: Starting at <b>₹2,500/month</b> for a <b>Limited time</b> &#x25CF;
+    AeroStack Flash Discount: Starting at <b>₹2,500/month</b> for a <b>Limited time</b> &#x25CF;
+    AeroStack Flash Discount: Starting at <b>₹2,500/month</b> for a <b>Limited time</b> 
+    
   </marquee>
   </div>
   <div id="header-sticky" class="header-2">
@@ -74,11 +53,11 @@
         <div class="header-main">
           <div class="header-left">
             <div class="logo">
-              <a href="./" class="header-logo">
-                <img src="assets//img/logo/Aerostack Systems Private Limited 2.png" alt="logo-img" />
-              </a>
+              <!-- <a href="./" class="header-logo">
+                <img src="assets/img/logo/Aerostack Systems Private Limited.svg" alt="logo-img" />
+              </a> -->
               <a href="./" class="header-logo-2">
-                <img src="assets//img/logo/aerostack-systems-logo.png" alt="logo-img" />
+                <img src="assets/img/logo/Aerostack Systems Private Limited.svg" alt="logo-img" width="200px" style="margin-top:-10px"/>
               </a>
             </div>
           </div>

@@ -2341,7 +2341,7 @@ span {
 }
 .header-2 .header-main {
   background-color: var(--white);
-  padding: 20px 25px;
+  padding: 20px 35px;
   border-radius: 100px;
 }
 .header-2 .header-main .sidebar__toggle {
@@ -2361,11 +2361,7 @@ span {
     border: none !important;
   }
 }
-@media (max-width: 1399px) {
-  .header-2 .header-right .header-button {
-    display: none;
-  }
-}
+
 .header-2 .header-right .header-button .theme-btn {
   background-color: var(--theme);
 }
@@ -6791,3 +6787,20 @@ input.main-search-input::placeholder {
   }
 }
 
+@media (max-width:1399px){
+  .top-marque{
+    width: 500px !important;
+  }
+}
+
+@media (max-width:767px){
+ .header-main .header-right .header-button{
+  display: none;
+ }
+
+}
+@media (max-width:1199px){
+  .header-right{
+    flex-direction: row-reverse;
+  }
+}
