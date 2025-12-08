@@ -6789,7 +6789,7 @@ input.main-search-input::placeholder {
 
 @media (max-width:1399px){
   .top-marque{
-    width: 500px !important;
+    width: 500px !important; 
   }
 }
 
