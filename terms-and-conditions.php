@@ -7,9 +7,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="gramentheme">
-        <meta name="description" content="Web hosting & WHMCS Html Template ">
+        <meta name="description" content="Terms and Conditions - AeroStack">
         <!-- ======== Page title ============ -->
-        <title>Web hosting & WHMCS Html Template </title>
+        <title>Terms and Conditions - AeroStack</title>
         <!--<< Favcion >>-->
         <link rel="shortcut icon" href="assets/img/favicon.svg">
         <!--<< Bootstrap min.css >>-->

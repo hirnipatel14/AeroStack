@@ -7,10 +7,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="gramentheme">
-  <meta name="description" content="Web hosting & WHMCS Html Template ">
+  <meta name="author" content="AeroStack">
+  <meta name="description" content="About Us - AeroStack">
   <!-- ======== Page title ============ -->
-  <title>Web hosting & WHMCS Html Template </title>
+  <title>About Us - AeroStack</title>
   <!--<< Favcion >>-->
   <link rel="shortcut icon" href="assets/img/favicon.svg">
   <!--<< Bootstrap min.css >>-->
