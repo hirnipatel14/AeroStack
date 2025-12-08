@@ -35,6 +35,7 @@
 </head>
 
 <body>
+  <?php include './inc/gtm2.php'; ?>
 
   <!-- Preloader Start -->
   <div id="preloader" class="preloader">

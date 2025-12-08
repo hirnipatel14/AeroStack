@@ -35,6 +35,7 @@
 </head>
 
 <body>
+  <?php include './inc/gtm2.php'; ?>
 
   <!-- Preloader Start -->
   <div id="preloader" class="preloader">
@@ -439,8 +440,8 @@
                   </li>
                 </ul>
               </div>
-              <a href="https://shop.aero-stack.com/shop" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Get Started Now <i
-                  class="fas fa-long-arrow-alt-right"></i>
+              <a href="https://shop.aero-stack.com/shop" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Get Started
+                Now <i class="fas fa-long-arrow-alt-right"></i>
               </a>
             </div>
           </div>

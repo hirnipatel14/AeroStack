@@ -1,10 +1,11 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Thank-you - AeroStack</title>
-        <link rel="shortcut icon" href="assets/img/favicon.svg" />
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank-you - AeroStack</title>
+    <link rel="shortcut icon" href="assets/img/favicon.svg" />
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!--<< All Min Css >>-->
@@ -23,12 +24,17 @@
     <link rel="stylesheet" href="assets/css/color.css" />
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css" />
-      <?php include './inc/gtm.php'; ?>
-    </head>
-    <body>
-<?php include 'header.php'; ?>
-    <section style="margin-top:400px; margin-bottom:200px;display:flex;justify-content:center;align-items:center;flex-direction:column;gap:40px"><h1>Thank You For Contacting</h1><a href="/" class="theme-btn">Go Home</a></section>
-    
+    <?php include './inc/gtm.php'; ?>
+</head>
+
+<body>
+    <?php include './inc/gtm2.php'; ?>
+    <?php include 'header.php'; ?>
+    <section
+        style="margin-top:400px; margin-bottom:200px;display:flex;justify-content:center;align-items:center;flex-direction:column;gap:40px">
+        <h1>Thank You For Contacting</h1><a href="/" class="theme-btn">Go Home</a>
+    </section>
+
 
     <?php include 'footer.php'; ?>
 
@@ -54,5 +60,6 @@
     <script src="assets/js/wow.min.js"></script>
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
-    </body>
-    </html>
+</body>
+
+</html>
