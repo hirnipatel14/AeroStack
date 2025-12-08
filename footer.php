@@ -61,19 +61,19 @@
                 </a>
               </li>
               <li>
-                <a href="about.php">
+                <a href="./about">
                   <i class="fa-regular fa-chevrons-right"></i>
                   About
                 </a>
               </li>
               <li>
-                <a href="service.php">
+                <a href="./service">
                   <i class="fa-regular fa-chevrons-right"></i>
                   Service
                 </a>
               </li>
               <li>
-                <a href="contact.php">
+                <a href="./contact">
                   <i class="fa-regular fa-chevrons-right"></i>
                   Contact Us
                 </a>
@@ -95,19 +95,19 @@
             </div>
             <ul class="list-area">
               <li>
-                <a href="privacy-policy.php">
+                <a href="./privacy-policy">
                   <i class="fa-regular fa-chevrons-right"></i>
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="refund-policy.php">
+                <a href="./refund-policy">
                   <i class="fa-regular fa-chevrons-right"></i>
                   Refund Policy
                 </a>
               </li>
               <li>
-                <a href="terms-and-conditions.php">
+                <a href="./terms-and-conditions">
                   <i class="fa-regular fa-chevrons-right"></i>
                   Terms & Conditions
                 </a>
@@ -203,17 +203,17 @@
             <img src="assets/img/visa-logo.png" alt="img" />
           </li>
           <li>
-            <a href="contact.php">
+            <a href="./contact">
               <img src="assets/img/mastercard-logo.png" alt="img" />
             </a>
           </li>
           <li>
-            <a href="contact.php">
+            <a href="./contact">
               <img src="assets/img/payoneer-logo.png" alt="img" />
             </a>
           </li>
           <li>
-            <a href="contact.php">
+            <a href="./contact">
               <img src="assets/img/affirm-logo.png" alt="img" />
             </a>
           </li>

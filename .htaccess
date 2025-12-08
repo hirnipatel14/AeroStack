@@ -1,4 +1,19 @@
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ $1.php [L]
+
+# ✅ Disable directory browsing
+Options -Indexes
+
+# ✅ Allow real files and folders
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# ✅ Clean URL mapping: /about → about.php
+RewriteRule ^([^/]+)$ $1.php [L]
+
+# ✅ If the mapped PHP file still does NOT exist → force 404
+RewriteCond %{REQUEST_FILENAME}.php !-f
+RewriteRule ^.*$ /404.php [L]
+
+# ✅ Custom 404 handler
+ErrorDocument 404 /404.php

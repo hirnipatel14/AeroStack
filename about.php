@@ -71,7 +71,7 @@
         <div class="offcanvas__content">
           <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
             <div class="offcanvas__logo">
-              <a href="index.php">
+              <a href="./">
                 <img src="assets/img/logo/black-logo.svg" alt="logo-img">
               </a>
             </div>
@@ -123,7 +123,7 @@
               </li>
             </ul>
             <div class="header-button mt-4">
-              <a href="contact.php" class="theme-btn text-center">
+              <a href="./contact" class="theme-btn text-center">
                 Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
               </a>
             </div>
@@ -312,7 +312,7 @@
           <h1 class="wow fadeInUp mt-5" data-wow-delay=".3s">About Us</h1>
           <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
             <li>
-              <a href="index.php">
+              <a href="./">
                 Home
               </a>
             </li>

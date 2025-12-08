@@ -129,7 +129,7 @@
                 </li>
               </ul>
               <div class="header-button mt-4">
-                <a href="contact.php" class="theme-btn text-center">
+                <a href="./contact" class="theme-btn text-center">
                   Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
                 </a>
               </div>
@@ -389,7 +389,7 @@
                                 <a href="https://shop.aero-stack.com/shop" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".7s">
                                     Get Started Now <i class="fas fa-long-arrow-alt-right"></i>
                                 </a>
-                                <a href="service.php" class="theme-btn border-white wow fadeInUp" data-wow-delay=".7s">
+                                <a href="./service" class="theme-btn border-white wow fadeInUp" data-wow-delay=".7s">
                                     See Our Services <i class="fas fa-long-arrow-alt-right"></i>
                                 </a>
                             </div>

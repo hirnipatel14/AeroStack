@@ -107,7 +107,7 @@
                       </ul>
                     </li>
                     <li class="has-dropdown menu-thumb">
-                      <a href="about.php">
+                      <a href="./about">
                         About Us
                         <!-- <i class="fas fa-angle-down"></i> -->
                       </a>
@@ -118,7 +118,7 @@
                         <i class="fas fa-angle-down"></i>
                       </a>
                       <ul class="submenu">
-                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="./about">About Us</a></li>
                         <li>
                           <a href="black-friday.html">Black Friday</a>
                         </li>
@@ -128,12 +128,12 @@
                           <a href="pricing-2.html">Pricing Package</a>
                         </li>
                         <li><a href="data-center.html">Data Center</a></li>
-                        <li><a href="service.php">Services</a></li>
+                        <li><a href="./service">Services</a></li>
                         <li><a href="team.html">Team</a></li>
                         <li>
                           <a href="team-details.html">Team Details</a>
                         </li>
-                        <li><a href="404.php">Error Pages</a></li>
+                        <li><a href="./404">Error Pages</a></li>
                       </ul>
                     </li>
                     <li class="has-dropdown active d-xl-none">
@@ -161,10 +161,10 @@
                       </ul>
                     </li>
                     <li>
-                      <a href="service.php">Services</a>
+                      <a href="./service">Services</a>
                     </li>
                     <li>
-                      <a href="contact.php">
+                      <a href="./contact">
                         Contact Us
                         <!-- <i class="fas fa-angle-down"></i> -->
                       </a>
@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', function(){
   var sourceNav = document.getElementById('mobile-menu');
   if(toggle && dropdown && sourceNav){
     // Build a filtered menu containing only the desktop pages: Home, About, Services, Contact
-    var allowedEnds = ['/', './', 'index.php', 'index.html', 'about.php', 'service.php', 'contact.php', 'https://shop.aero-stack.com/shop'];
+    var allowedEnds = ['/', './', './index', './index', './about', './service', './contact', 'https://shop.aero-stack.com/shop'];
     var seen = new Set();
     var newUl = document.createElement('ul');
     // Look through all anchors inside the source nav and keep only allowed ones

@@ -94,7 +94,7 @@
                 <div class="offcanvas__content">
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
-                            <a href="index.php">
+                            <a href="./">
                                 <img src="assets/img/logo/black-logo.svg" alt="logo-img">
                             </a>
                         </div>
@@ -147,7 +147,7 @@
                             </li>
                         </ul>
                         <div class="header-button mt-4">
-                            <a href="contact.php" class="theme-btn text-center">
+                            <a href="./contact" class="theme-btn text-center">
                                 Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </div>
@@ -342,7 +342,7 @@
                     <h1 class="wow fadeInUp" data-wow-delay=".3s">Page not found</h1>
                     <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                         <li>
-                            <a href="index.php">
+                            <a href="./">
                                 Home
                             </a>
                         </li>
@@ -375,7 +375,7 @@
                         </h2>
                         <p class="mb-3 wow fadeInUp" data-wow-delay=".6s">The page you are looking for does not exist
                         </p>
-                        <a href="index.php" class="theme-btn wow fadeInUp" data-wow-delay=".7s">
+                        <a href="./" class="theme-btn wow fadeInUp" data-wow-delay=".7s">
                             Back to home pages
                             <i class="fa-solid fa-arrow-right-long"></i>
                         </a>
