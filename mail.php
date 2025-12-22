@@ -104,8 +104,8 @@ try {
     $mail->setFrom('digital@hbsoftweb.com', 'HB Softweb');
 
     // RECEIVING MAILBOXES
-    $mail->addAddress('jay.m@hbsoftweb.in');
-    $mail->addCC('digital@hbsoftweb.com');
+    $mail->addAddress('info@aero-stack.com');
+    $mail->addCC('info@hbsoftweb.com');
 
     // Reply-to visitor
     $mail->addReplyTo($email, $name);
