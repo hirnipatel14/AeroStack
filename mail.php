@@ -16,6 +16,20 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     exit('Illegal access');
 }
 
+// reCAPTCHA v3 verification
+require __DIR__ . '/recaptcha-verify.php';
+
+$token = $_POST['g-recaptcha-response'] ?? '';
+
+// Allow lower score on localhost
+$minScore = ($_SERVER['HTTP_HOST'] === 'localhost') ? 0.1 : 0.5;
+
+if (!verify_recaptcha_v3($token, 'contact_form', $minScore)) {
+    http_response_code(403);
+    exit('Captcha verification failed');
+}
+
+
 // INPUTS FROM contact.php
 $name     = isset($_POST['name']) ? trim($_POST['name']) : '';
 $email    = isset($_POST['email']) ? trim($_POST['email']) : '';
@@ -69,7 +83,7 @@ $html = '<!doctype html>
     <p><strong>Subject Selected:</strong> ' . $e($subject) . '</p>
     <p><strong>Message:</strong><br>' . nl2br($e($message)) . '</p>
     <hr>
-    <p style="font-size:12px;color:#666;">AeroStack Systems — Website Enquiry Message</p>
+    <p style="font-size:12px;color:#666;">AeroStack Systems - Website Enquiry Message</p>
   </div>
 </body>
 </html>';
@@ -90,8 +104,8 @@ try {
     $mail->setFrom('digital@hbsoftweb.com', 'HB Softweb');
 
     // RECEIVING MAILBOXES
-    $mail->addAddress('info@aero-stack.com');
-    $mail->addCC('info@hbsoftweb.com');
+    $mail->addAddress('jay.m@hbsoftweb.in');
+    $mail->addCC('digital@hbsoftweb.com');
 
     // Reply-to visitor
     $mail->addReplyTo($email, $name);

@@ -645,8 +645,7 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <!--<< Wow Animation Js >>-->
     <script src="assets/js/wow.min.js"></script>
-    <!--<< Ajax Mail Js >>-->
-    <script src="assets/js/ajax-mail.js"></script>
+
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
 </body>

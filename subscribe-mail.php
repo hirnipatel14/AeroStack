@@ -16,6 +16,19 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     exit('Illegal access');
 }
 
+// reCAPTCHA v3 verification
+require __DIR__ . '/recaptcha-verify.php';
+
+$token = $_POST['g-recaptcha-response'] ?? '';
+
+// Newsletter forms can have lower score
+$minScore = ($_SERVER['HTTP_HOST'] === 'localhost') ? 0.1 : 0.3;
+
+if (!verify_recaptcha_v3($token, 'newsletter_form', $minScore)) {
+    http_response_code(403);
+    exit('Captcha verification failed');
+}
+
 $email = isset($_POST['subscriber_email']) ? trim($_POST['subscriber_email']) : '';
 $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 
@@ -24,7 +37,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     exit("Invalid email");
 }
 
-$baseSubject = 'New Subscriber — AeroStack Systems Newsletter';
+$baseSubject = 'New Subscriber - AeroStack Systems Newsletter';
 
 $e = fn($s) => htmlspecialchars((string) $s, ENT_QUOTES, 'UTF-8');
 
@@ -41,7 +54,7 @@ $html = '<!doctype html>
     <h2 style="margin:0 0 16px 0;font-size:20px;line-height:1.3;">' . $e($baseSubject) . '</h2>
     <p><strong>Subscriber Email:</strong> ' . $e($email) . '</p>
     <hr>
-    <p style="font-size:12px;color:#666;">AeroStack Systems — Newsletter Subscription</p>
+    <p style="font-size:12px;color:#666;">AeroStack Systems - Newsletter Subscription</p>
   </div>
 </body>
 </html>';
@@ -62,8 +75,8 @@ try {
     $mail->setFrom('digital@hbsoftweb.com', 'HB Softweb');
 
     // RECEIVING MAILBOXES
-    $mail->addAddress('info@aero-stack.com');
-    $mail->addCC('info@hbsoftweb.com');
+    $mail->addAddress('jay.m@hbsoftweb.in');
+    $mail->addCC('digital@hbsoftweb.com');
 
     // Reply-to subscriber
     $mail->addReplyTo($email);

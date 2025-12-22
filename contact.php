@@ -32,6 +32,7 @@
   <!--<< Main.css >>-->
   <link rel="stylesheet" href="assets/css/main.css">
   <?php include './inc/gtm.php'; ?>
+
 </head>
 
 <body>
@@ -463,11 +464,8 @@
                     </div>
                   </div>
                   <div class="col-lg-12 wow fadeInUp" data-wow-delay=".9s">
-                    <div class="form-check d-flex gap-2 from-customradio">
-                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault12">
-                      <label class="form-check-label" for="flexRadioDefault1">
-                        Collaboratively formulate principle capital. Progressively evolve user
-                      </label>
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".9s">
+                      <input type="hidden" name="g-recaptcha-response" id="recaptcha_contact">
                     </div>
                     <button type="submit" class="theme-btn">
                       Submit Now <i class="fa-solid fa-arrow-right-long"></i>
@@ -505,10 +503,28 @@
   <script src="assets/js/jquery.magnific-popup.min.js"></script>
   <!--<< Wow Animation Js >>-->
   <script src="assets/js/wow.min.js"></script>
-  <!--<< Ajax Mail Js >>-->
-  <script src="assets/js/ajax-mail.js"></script>
+
   <!--<< Main.js >>-->
   <script src="assets/js/main.js"></script>
+
+  <!-- captcha-script -->
+  <script>
+    grecaptcha.ready(function () {
+      const contactForm = document.querySelector('.contact-form-items');
+      if (!contactForm) return;
+
+      contactForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        grecaptcha.execute('6LegQzMsAAAAAIO1Wdhrf1pvSfvC0-C377_STh2z', { action: 'contact_form' })
+          .then(function (token) {
+            document.getElementById('recaptcha_contact').value = token;
+            contactForm.submit();
+          });
+      });
+    });
+  </script>
+
 </body>
 
 </html>

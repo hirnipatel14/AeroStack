@@ -3031,7 +3031,6 @@ span {
 
 .hero-1 {
   position: relative;
-  z-index: 7;
   padding: 295px 0px 320px;
 }
 @media (max-width: 1199px) {
