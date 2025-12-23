@@ -256,4 +256,4 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 </script>
 <!-- captcha v3 -->
-   <script src="https://www.google.com/recaptcha/api.js?render=6LegQzMsAAAAAIO1Wdhrf1pvSfvC0-C377_STh2z"></script>
+   <script src="https://www.google.com/recaptcha/api.js?render=6LcCQzQsAAAAALTMfBwjdohZa2d24timNzYWzymL"></script>

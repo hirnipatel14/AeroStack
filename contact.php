@@ -516,7 +516,7 @@
       contactForm.addEventListener('submit', function (e) {
         e.preventDefault();
 
-        grecaptcha.execute('6LegQzMsAAAAAIO1Wdhrf1pvSfvC0-C377_STh2z', { action: 'contact_form' })
+        grecaptcha.execute('6LcCQzQsAAAAALTMfBwjdohZa2d24timNzYWzymL', { action: 'contact_form' })
           .then(function (token) {
             document.getElementById('recaptcha_contact').value = token;
             contactForm.submit();

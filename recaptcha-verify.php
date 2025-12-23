@@ -4,7 +4,7 @@ function verify_recaptcha_v3(string $token, string $expectedAction, float $minSc
 {
     if (empty($token)) return false;
 
-    $secret = '6LegQzMsAAAAANOGBGofGgi_zc01m00YpfxvDh_f';
+    $secret = '6LcCQzQsAAAAAL8Wz_Z0rWmGktSvGAAemADKdC5m';
 
     $response = file_get_contents(
         'https://www.google.com/recaptcha/api/siteverify?' . http_build_query([

@@ -250,7 +250,7 @@
       footerForm.addEventListener('submit', function (e) {
         e.preventDefault();
 
-        grecaptcha.execute('6LegQzMsAAAAAIO1Wdhrf1pvSfvC0-C377_STh2z', { action: 'newsletter_form' })
+        grecaptcha.execute('6LcCQzQsAAAAALTMfBwjdohZa2d24timNzYWzymL', { action: 'newsletter_form' })
           .then(function (token) {
             footerForm.querySelector('input[name="g-recaptcha-response"]').value = token;
             footerForm.submit();
