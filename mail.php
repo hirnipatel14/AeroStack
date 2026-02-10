@@ -101,11 +101,11 @@ try {
     $mail->Port = 587;
 
     // MAIL FROM
-    $mail->setFrom('digital@hbsoftweb.com', 'HB Softweb');
+    $mail->setFrom('info@aero-stack.com', 'Aero-stack');
 
     // RECEIVING MAILBOXES
     $mail->addAddress('info@aero-stack.com');
-    $mail->addCC('info@hbsoftweb.com');
+    $mail->addCC('');
 
     // Reply-to visitor
     $mail->addReplyTo($email, $name);
